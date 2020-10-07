@@ -24,6 +24,18 @@ function nextSlide(n) {
 
   var nextIdx = currSlideIdx + n;
 
+  // not sure why I have to add this, some weird styling issue
+  // hide first page text so it doesn't show up when scrolling 
+  // through the other pages
+  if(nextIdx === 0) {
+    $('.tw-contents').show();
+    $('.scrolldown').show();
+  } else {
+    $('.tw-contents').hide();
+    $('.scrolldown').hide();
+  }
+  
+  
   if(nextIdx <= (NUM_SLIDES - 1) && nextIdx >= 0) {
     $('.slideBtn')[nextIdx].click();
     currSlideIdx = nextIdx;
