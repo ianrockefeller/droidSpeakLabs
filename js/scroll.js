@@ -27,7 +27,7 @@ function nextSlide(n) {
   // not sure why I have to add this, some weird styling issue
   // hide first page text so it doesn't show up when scrolling 
   // through the other pages
-  if(nextIdx === 0) {
+  if(nextIdx <= 0) {
     $('.tw-contents').show();
     $('.scrolldown').show();
   } else {
