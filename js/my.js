@@ -43,10 +43,23 @@ $(function() {
     $(this).addClass('is-active');
 
     setTimeout(function() {
-      $('.nav-wrapper').removeClass('black').removeClass('white');
-      $('.logo').removeClass('black').removeClass('white').removeClass('blue');
-      $('.hamburger-wrapper').removeClass('black').removeClass('white').removeClass('blue');
-      if($(curr_section).hasClass('white-font')) {
+      var sectionStyles = ['black', 'white', 'blue-bg', 'blue'];
+      for(ss of sectionStyles) {
+        $('.nav-wrapper').removeClass(ss);
+        $('.logo').removeClass(ss);
+        $('.hamburger-wrapper').removeClass(ss);
+      }
+      console.log(curr_section)
+      // $('.nav-wrapper').removeClass('black').removeClass('white').removeClass('blue');
+      // $('.logo').removeClass('black').removeClass('white').removeClass('blue');
+      // $('.hamburger-wrapper').removeClass('black').removeClass('white').removeClass('blue');
+      if($(curr_section).hasClass('section-4')) { // FOOTER
+        $('.logo').addClass('blue-bg');
+        $('.hamburger-wrapper').addClass('blue-bg');
+        $('.nav-wrapper').addClass('white');
+        $('.hamburger-wrapper').addClass('white');
+        $('.logo').addClass('white');
+      } else if($(curr_section).hasClass('white-font')) {
         $('.nav-wrapper').addClass('white');
         $('.hamburger-wrapper').addClass('white');
         $('.logo').addClass('white');
