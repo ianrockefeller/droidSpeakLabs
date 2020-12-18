@@ -5,20 +5,20 @@
   <script src="js/detectmobile.js"></script>
   <script>
     try {
-        // This is the URL where mobile
-        detectmobile.defaultMobileURL = "https://m.droidspeaklabs.com";
-        detectmobile.process();
-    } catch(e) {
+      // This is the URL where mobile
+      detectmobile.defaultMobileURL = "https://m.droidspeaklabs.com";
+      detectmobile.process();
+    } catch (e) {
       console.log(e);
     }
-  </script>      
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DroidSpeakLabs</title>
-  
+
   <link href="css/bulma-0.9.0/css/bulma.css" rel="stylesheet" />
   <link href="css/hamburgers.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet" />
@@ -26,41 +26,96 @@
   <!-- <script src="js/jquery-ui-1.12.1"></script> -->
 
   <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700" rel="stylesheet">
-  
-<style>
-body { scroll-behavior: smooth; }
-</style>
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+
+    .popup {
+      position: fixed;
+      z-index: 9;
+      margin: 10%;
+    }
+
+    .popup > .container {
+      margin: 2em;
+    }
+
+    .x-btn {
+      position: absolute;
+      right: .5em;
+      top: .25em;
+      font-size: 2em;
+      line-height: 1em;
+      cursor: pointer;
+    }
+  </style>
 </head>
 
 <body>
-<div class="nav-wrapper black">  
-  <div class="hamburger-wrapper">
-    <button class="hamburger hamburger--collapse" type="button">
-      <span class="hamburger-box">
-        <span class="hamburger-inner"></span>
-      </span>
-    </button>
-  </div>
 
-  <div class="menu-wrapper">
-    <div class="columns is-gapless" style="height: 100%;">
-      <div class="contact column">
-        <div class="content flex-center">
-          <p><b>hello@droidspeaklabs.com</b></p>
+  <section id="landing-popup" class="popup hero is-info">
+        <div id="popup__x-btn" class="x-btn">X</div>
+        <div class="container">
+            <h1 class="title">
+                We're here to help.
+            </h1>
+            <div class="content">
+                <p>
+                    <b>DroidSpeakLabs</b> is a Philadelphia-based software and marketing agency helping businesses design, build and scale their digital prescence and online identity. We are a tight knit team of experts whose main goal is to help the other businesses and local business owners around us succeed digitally.
+                </p>
+                <p>
+                    In light of recent events, we are looking to help the local businesses and business owners most affected by the pandemic by offering free consulting and a set of no up front cost services including but not limited to website creation, eCommerce creation, and social media management.
+                </p>
+                <p>
+                    We are currently rolling out this effort and are lookig for new clients that want to turn their business around through expanding their digital presence. If you think you would be a good fit, please reach out to us at a contact point below.
+                </p>
+                <p>
+                    Cheers,<br/>
+                    DSL
+                </p>
+                <br/><br/>
+                <p>
+                    hello@droidspeaklabs.com<br/>
+                    droidspeaklabs@gmail.com<br/>
+                    215 380 6355<br/>
+                </p>                
+
+                <p style="text-align: center;">
+                    <a id="cta-btn" class="button" href="https://droidspeaklabs.com">View our site</a>
+                </p>
+            </div>
+    </div>
+  </section>
+  <div class="nav-wrapper black">
+    <div class="hamburger-wrapper">
+      <button class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+
+    <div class="menu-wrapper">
+      <div class="columns is-gapless" style="height: 100%;">
+        <div class="contact column">
+          <div class="content flex-center">
+            <p><b>hello@droidspeaklabs.com</b></p>
+          </div>
         </div>
-      </div>
-      <div class="nav column">
-        <div class="content flex-center">
-          <p><a class="has-text-white" href="./blog">Blog</a></p>
+        <div class="nav column">
+          <div class="content flex-center">
+            <p><a class="has-text-white" href="./blog">Blog</a></p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <h1 class="logo black">
-    <a href="."><span>droid</span><span>Speak</span><span>Labs</span><span class="blink-cursor">&nbsp;</span></a>
-  </h1>
-</div>
+    <h1 class="logo black">
+      <a href="."><span>droid</span><span>Speak</span><span>Labs</span><span class="blink-cursor">&nbsp;</span></a>
+    </h1>
+  </div>
   <div class="slide-btn-bar">
     <ul>
       <li class="slideBtn"><a>Link 1</a></li>
@@ -79,17 +134,17 @@ body { scroll-behavior: smooth; }
           <div class="tw-word-wrapper tw-block">
             <div class="tw-word-contents">
               <div class="anim-typewriter tw-line"></div>
-            </div>        
+            </div>
           </div>
           <div class="tw-block">Solutions</div>
         </div>
-        <br/>
+        <br />
         <p class="tw-tagline">
           <i>Innovative digital services for agencies and businesses.</i>
         </p>
       </div>
 
-      <div class="scrolldown" style="cursor: pointer; position: fixed; bottom: 30px; text-align: center;"> 
+      <div class="scrolldown" style="cursor: pointer; position: fixed; bottom: 30px; text-align: center;">
         <div>Scroll Down / Swipe Up / Press &#x2193;</div>
         <div style="transform: rotate(90deg); display: inline-block;">&rang;</div>
       </div>
@@ -103,20 +158,23 @@ body { scroll-behavior: smooth; }
             <h2 class="title is-2">A Philadelphia-based Digital Agency</h2>
             <div class="content">
               <p style="margin-top: 2.5em;">
-                We are a <i>lean</i> team of <b>experts</b> in our respective crafts who seek to harness the current trends in technology to <b>empower</b> businesses.
+                We are a <i>lean</i> team of <b>experts</b> in our respective crafts who seek to harness the current
+                trends in technology to <b>empower</b> businesses.
               </p>
               <p>
-                We offer <b>complete digital solutions</b> that span across <i>Web Design, eCommerce, SEO, Social Media and Digital Marketing</i> to meet <u>all</u> of your business' digital needs <b>under one roof</b>.
+                We offer <b>complete digital solutions</b> that span across <i>Web Design, eCommerce, SEO, Social Media
+                  and Digital Marketing</i> to meet <u>all</u> of your business' digital needs <b>under one roof</b>.
               </p>
               <p>
-                Take your business to the <b>next level</b> by implementing <b>custom software solutions</b> designed around <u>cutting-edge technologies</u> and <u>industry best practices</u>. 
+                Take your business to the <b>next level</b> by implementing <b>custom software solutions</b> designed
+                around <u>cutting-edge technologies</u> and <u>industry best practices</u>.
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    
+
     <section tabindex="-1" data-anchor="page1" class="section-2 white-font">
       <div class="hero-body">
         <div class="container" style="text-align: center; width: 100%;">
@@ -159,7 +217,7 @@ body { scroll-behavior: smooth; }
       </div>
       <div class="hero-foot"></div>
     </section>
-    
+
     <section tabindex="-1" data-anchor="page2" class="black-font section-3" style="background: #ccc;">
       <div class="hero-body">
         <div class="container">
@@ -177,13 +235,15 @@ body { scroll-behavior: smooth; }
               <div class="column">
                 <div class="content">
                   <h3><b><u>2. Research</u></b></h3>
-                  <p>Perform our due dilligence in understanding your target audience and market in order to tailor our solution to your specific needs</p>
+                  <p>Perform our due dilligence in understanding your target audience and market in order to tailor our
+                    solution to your specific needs</p>
                 </div>
               </div>
               <div class="column">
                 <div class="content">
                   <h3><b><u>3. Design</u></b></h3>
-                  <p>We create wireframes, mockups and prototypes to provide a high-level overview of our proposed solution</p>
+                  <p>We create wireframes, mockups and prototypes to provide a high-level overview of our proposed
+                    solution</p>
                 </div>
               </div>
             </div>
@@ -192,20 +252,23 @@ body { scroll-behavior: smooth; }
               <div class="column">
                 <div class="content">
                   <h3><b><u>4. Development</u></b></h3>
-                  <p>Once approved, our developers run with the design and build industry-standard and cutting-edge solutions in record-setting time with laser-like precision</p>
-                </div>              
+                  <p>Once approved, our developers run with the design and build industry-standard and cutting-edge
+                    solutions in record-setting time with laser-like precision</p>
+                </div>
               </div>
               <div class="column">
                 <div class="content">
                   <h3><b><u>5. Maintain</u></b></h3>
-                  <p>Monthly and ad-hoc reports are provided for performance tracking to ensure, assess and update KPIs</p>
+                  <p>Monthly and ad-hoc reports are provided for performance tracking to ensure, assess and update KPIs
+                  </p>
                 </div>
               </div>
               <div class="column">
                 <div class="content">
                   <h3><b><u>6. Repeat</u></b></h3>
-                  <p>We continually work to assess and fine-tune our deliverables to ensure they are performing as efficiently and effectively as possible</p>   
-                </div>                
+                  <p>We continually work to assess and fine-tune our deliverables to ensure they are performing as
+                    efficiently and effectively as possible</p>
+                </div>
               </div>
             </div>
           </div>
@@ -213,13 +276,15 @@ body { scroll-behavior: smooth; }
       </div>
       <div class="hero-foot"></div>
     </section>
-    
+
     <section tabindex="-1" data-anchor="page3" class="white-font is-primary section-4">
       <div class="hero-body">
         <div class="container" style="height: 100%;">
-          <div class="page-wrapper" style="display: flex; justify-content: space-between; flex-direction: column; height: 100%;">
+          <div class="page-wrapper"
+            style="display: flex; justify-content: space-between; flex-direction: column; height: 100%;">
             <h2 class="title has-text-white has-text-centered is-1 blue-bg" style="padding: 0.5em 0; margin: auto;">
-              You have the vision, we have the knowledge, experience, understanding and team. <u>Let's get started today!</u>
+              You have the vision, we have the knowledge, experience, understanding and team. <u>Let's get started
+                today!</u>
             </h2>
 
             <div class="content blue-bg" style="padding: 0.5em 0; text-align: center;">
@@ -230,14 +295,16 @@ body { scroll-behavior: smooth; }
                 </p>
               </div>
               <p>
-                  SEO | PPC | Web Design | Web Development | eCommerce | Social Media Management | Social Media Marketing | Search Engine Marketing | Digital Marketing | Content Marketing | Email Marketing  | Bot Automation | Graphic Design | Brand Design | Application Development 
+                SEO | PPC | Web Design | Web Development | eCommerce | Social Media Management | Social Media Marketing
+                | Search Engine Marketing | Digital Marketing | Content Marketing | Email Marketing | Bot Automation |
+                Graphic Design | Brand Design | Application Development
               </p>
             </div>
           </div>
         </div>
       </div>
       <div class="hero-foot"></div>
-    </section>    
+    </section>
   </div>
 
   <footer class="footer" style="position: relative; z-index: 2;">
@@ -246,8 +313,15 @@ body { scroll-behavior: smooth; }
     </div>
   </footer>
 
-<script src="./js/scroll.js"></script>
-<script src="./js/my.js"></script>
+  <script src="./js/scroll.js"></script>
+  <script src="./js/my.js"></script>
+  <script>
+    $(function() {
+      $('#popup__x-btn').click(function() {
+        $('#landing-popup').css({display: 'none'});
+      });
+    });
+  </script>
 </body>
-</html>
 
+</html>
