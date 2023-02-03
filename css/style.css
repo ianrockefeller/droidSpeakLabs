@@ -540,6 +540,7 @@ p {
   top: 0; left: 0;
   opacity: 0.1;
   background: url('../media/philly1.jpeg');
+  background-size: cover;
 }
 
 .section-1 p {
