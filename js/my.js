@@ -35,32 +35,35 @@ $(function() {
     // SmoothVerticalScrolling(curr_section, 200, 'top')
     // curr_section.scrollIntoView({behavior: 'smooth', block: 'end'});
 
-    $('html, body').animate({
-      scrollTop: $(curr_section).offset().top
-    }, 300)
-    
-    $('.slideBtn').removeClass('is-active');
-    $(this).addClass('is-active');
+    // console.log(curr_section)
 
-    setTimeout(function() {
-      $('.nav-wrapper').removeClass('black').removeClass('white');
-      $('.logo').removeClass('black').removeClass('white').removeClass('blue');
-      $('.hamburger-wrapper').removeClass('black').removeClass('white').removeClass('blue');
-      if($(curr_section).hasClass('white-font')) {
-        $('.nav-wrapper').addClass('white');
-        $('.hamburger-wrapper').addClass('white');
-        $('.logo').addClass('white');
-      } else if($(curr_section).hasClass('black-font')) {
-        $('.nav-wrapper').addClass('black');
-        $('.hamburger-wrapper').addClass('black');
-        $('.logo').addClass('black');
-      } else if($(curr_section).hasClass('blue-font')) {
-        $('.nav-wrapper').addClass('blue');
-        $('.hamburger-wrapper').addClass('blue');
-        $('.logo').addClass('blue');
-      }
-    }, 500);
-
+    if(curr_section != null) {
+      $('html, body').animate({
+        scrollTop: $(curr_section).offset().top
+      }, 300)
+      
+      $('.slideBtn').removeClass('is-active');
+      $(this).addClass('is-active');
+  
+      setTimeout(function() {
+        $('.nav-wrapper').removeClass('black').removeClass('white');
+        $('.logo').removeClass('black').removeClass('white').removeClass('blue');
+        $('.hamburger-wrapper').removeClass('black').removeClass('white').removeClass('blue');
+        if($(curr_section).hasClass('white-font')) {
+          $('.nav-wrapper').addClass('white');
+          $('.hamburger-wrapper').addClass('white');
+          $('.logo').addClass('white');
+        } else if($(curr_section).hasClass('black-font')) {
+          $('.nav-wrapper').addClass('black');
+          $('.hamburger-wrapper').addClass('black');
+          $('.logo').addClass('black');
+        } else if($(curr_section).hasClass('blue-font')) {
+          $('.nav-wrapper').addClass('blue');
+          $('.hamburger-wrapper').addClass('blue');
+          $('.logo').addClass('blue');
+        }
+      }, 500);
+    }
   });
 
   $('.anim-typewriter').on('animationiteration webkitAnimationIteration oAnimationIteration MSAnimationIteration',   
@@ -115,11 +118,12 @@ $(function() {
     'Digital',
     'Website',
     // 'Design',
+    'AI',
     'Marketing',
     'Hosting',
     'WordPress',
     'Software',
-    'eCommerce',
+    'E-Commerce',
     'SEO',
     // 'CMS',
     // 'Shopify',
