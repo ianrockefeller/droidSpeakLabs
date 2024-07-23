@@ -49,7 +49,7 @@ $(function() {
         $('.logo').removeClass(ss);
         $('.hamburger-wrapper').removeClass(ss);
       }
-      console.log(curr_section)
+      // console.log(curr_section)
       // $('.nav-wrapper').removeClass('black').removeClass('white').removeClass('blue');
       // $('.logo').removeClass('black').removeClass('white').removeClass('blue');
       // $('.hamburger-wrapper').removeClass('black').removeClass('white').removeClass('blue');
@@ -128,11 +128,12 @@ $(function() {
     'Digital',
     'Website',
     // 'Design',
+    'AI',
     'Marketing',
     'Hosting',
     'WordPress',
     'Software',
-    'eCommerce',
+    'E-Commerce',
     'SEO',
     // 'CMS',
     // 'Shopify',
