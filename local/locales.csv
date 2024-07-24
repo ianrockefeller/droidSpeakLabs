@@ -1,0 +1,336 @@
+New York,New York,NY
+Los Angeles,Los Angeles,CA
+Chicago,Chicago,IL
+Houston,Houston,TX
+Phoenix,Phoenix,AZ
+Philadelphia,Philadelphia,PA
+San Antonio,San Antonio,TX
+San Diego,San Diego,CA
+Dallas,Dallas,TX
+Jacksonville,Jacksonville,FL
+Austin,Austin,TX
+Fort Worth,Fort Worth,TX
+San Jose,San Jose,CA
+Columbus,Columbus,OH
+Charlotte,Charlotte,NC
+Indianapolis,Indianapolis,IN
+San Francisco,San Francisco,CA
+Seattle,Seattle,WA
+Denver,Denver,CO
+Oklahoma City,Oklahoma City,OK
+Nashville,Nashville,TN
+Washington,Washington,DC
+El Paso,El Paso,TX
+Las Vegas,Las Vegas,NV
+Boston,Boston,MA
+Detroit,Detroit,MI
+Portland,Portland,OR
+Louisville,Louisville,KY
+Memphis,Memphis,TN
+Baltimore,Baltimore,MD
+Milwaukee,Milwaukee,WI
+Albuquerque,Albuquerque,NM
+Tucson,Tucson,AZ
+Fresno,Fresno,CA
+Sacramento,Sacramento,CA
+Mesa,Mesa,AZ
+Atlanta,Atlanta,GA
+Kansas City,Kansas City,MO
+Colorado Springs,Colorado Springs,CO
+Omaha,Omaha,NE
+Raleigh,Raleigh,NC
+Miami,Miami,FL
+Virginia Beach,Virginia Beach,VA
+Long Beach,Long Beach,CA
+Oakland,Oakland,CA
+Minneapolis,Minneapolis,MN
+Bakersfield,Bakersfield,CA
+Tulsa,Tulsa,OK
+Tampa,Tampa,FL
+Arlington,Arlington,TX
+Wichita,Wichita,KS
+Aurora,Aurora,CO
+New Orleans,New Orleans,LA
+Cleveland,Cleveland,OH
+Honolulu,Honolulu,HI
+Anaheim,Anaheim,CA
+Henderson,Henderson,NV
+Orlando,Orlando,FL
+Lexington,Lexington,KY
+Stockton,Stockton,CA
+Riverside,Riverside,CA
+Corpus Christi,Corpus Christi,TX
+Irvine,Irvine,CA
+Cincinnati,Cincinnati,OH
+Santa Ana,Santa Ana,CA
+Newark,Newark,NJ
+Saint Paul,Saint Paul,MN
+Pittsburgh,Pittsburgh,PA
+Greensboro,Greensboro,NC
+Durham,Durham,NC
+Lincoln,Lincoln,NE
+Jersey City,Jersey City,NJ
+Plano,Plano,TX
+Anchorage,Anchorage,AK
+North Las Vegas,North Las Vegas,NV
+St Louis,St. Louis,MO
+Madison,Madison,WI
+Chandler,Chandler,AZ
+Gilbert,Gilbert,AZ
+Reno,Reno,NV
+Buffalo,Buffalo,NY
+Chula Vista,Chula Vista,CA
+Fort Wayne,Fort Wayne,IN
+Lubbock,Lubbock,TX
+Toledo,Toledo,OH
+St Petersburg,St. Petersburg,FL
+Laredo,Laredo,TX
+Irving,Irving,TX
+Chesapeake,Chesapeake,VA
+Glendale,Glendale,AZ
+Winston-Salem,Winston-Salem,NC
+Port St Lucie, Port St. Lucie,FL
+Scottsdale,Scottsdale,AZ
+Garland,Garland,TX
+Boise,Boise,ID
+Norfolk,Norfolk,VA
+Spokane,Spokane,WA
+Richmond,Richmond,VA
+Fremont,Fremont,CA
+Huntsville,Huntsville,AL
+Frisco,Frisco,TX
+Cape Coral,Cape Coral,FL
+Santa Clarita,Santa Clarita,CA
+San Bernardino,San Bernardino,CA
+Tacoma,Tacoma,WA
+Hialeah,Hialeah,FL
+Baton Rouge,Baton Rouge,LA
+Modesto,Modesto,CA
+Fontana,Fontana,CA
+McKinney,McKinney,TX
+Moreno Valley,Moreno Valley,CA
+Des Moines,Des Moines,IA
+Fayetteville,Fayetteville,NC
+Salt Lake City,Salt Lake City,UT
+Yonkers,Yonkers,NY
+Worcester,Worcester,MA
+Rochester,Rochester,NY
+Sioux Falls,Sioux Falls,SD
+Little Rock,Little Rock,AR
+Amarillo,Amarillo,TX
+Tallahassee,Tallahassee,FL
+Grand Prairie,Grand Prairie,TX
+Columbus,Columbus,GA
+Augusta,Augusta,GA
+Peoria,Peoria,AZ
+Oxnard,Oxnard,CA
+Knoxville,Knoxville,TN
+Overland Park,Overland Park,KS
+Birmingham,Birmingham,AL
+Grand Rapids,Grand Rapids,MI
+Vancouver,Vancouver,WA
+Montgomery,Montgomery,AL
+Huntington Beach,Huntington Beach,CA
+Providence,Providence,RI
+Brownsville,Brownsville,TX
+Tempe,Tempe,AZ
+Akron,Akron,OH
+Glendale,Glendale,CA
+Chattanooga,Chattanooga,TN
+Fort Lauderdale,Fort Lauderdale,FL
+Newport News,Newport News,VA
+Mobile,Mobile,AL
+Ontario,Ontario,CA
+Clarksville,Clarksville,TN
+Cary,Cary,NC
+Elk Grove,Elk Grove,CA
+Shreveport,Shreveport,LA
+Eugene,Eugene,OR
+Aurora,Aurora,IL
+Salem,Salem,OR
+Santa Rosa,Santa Rosa,CA
+Rancho Cucamonga,Rancho Cucamonga,CA
+Pembroke Pines,Pembroke Pines,FL
+Fort Collins,Fort Collins,CO
+Springfield,Springfield,MO
+Oceanside,Oceanside,CA
+Garden Grove,Garden Grove,CA
+Lancaster,Lancaster,CA
+Murfreesboro,Murfreesboro,TN
+Palmdale,Palmdale,CA
+Corona,Corona,CA
+Killeen,Killeen,TX
+Salinas,Salinas,CA
+Roseville,Roseville,CA
+Denton,Denton,TX
+Surprise,Surprise,AZ
+Macon,Macon,GA
+Paterson,Paterson,NJ
+Lakewood,Lakewood,CO
+Hayward,Hayward,CA
+Charleston,Charleston,SC
+Alexandria,Alexandria,VA
+Hollywood,Hollywood,FL
+Springfield,Springfield,MA
+Kansas City,Kansas City,KS
+Sunnyvale,Sunnyvale,CA
+Bellevue,Bellevue,WA
+Joliet,Joliet,IL
+Naperville,Naperville,IL
+Escondido,Escondido,CA
+Bridgeport,Bridgeport,CT
+Savannah,Savannah,GA
+Olathe,Olathe,KS
+Mesquite,Mesquite,TX
+Pasadena,Pasadena,TX
+McAllen,McAllen,TX
+Rockford,Rockford,IL
+Gainesville,Gainesville,FL
+Syracuse,Syracuse,NY
+Pomona,Pomona,CA
+Visalia,Visalia,CA
+Thornton,Thornton,CO
+Waco,Waco,TX
+Jackson,Jackson,MS
+Columbia,Columbia,SC
+Lakewood,Lakewood,NJ
+Fullerton,Fullerton,CA
+Torrance,Torrance,CA
+Victorville,Victorville,CA
+Midland,Midland,TX
+Orange,Orange,CA
+Miramar,Miramar,FL
+Hampton,Hampton,VA
+Warren,Warren,MI
+Stamford,Stamford,CT
+Cedar Rapids,Cedar Rapids,IA
+Elizabeth,Elizabeth,NJ
+Palm Bay,Palm Bay,FL
+Dayton,Dayton,OH
+New Haven,New Haven,CT
+Coral Springs,Coral Springs,FL
+Meridian,Meridian,ID
+West Valley City,West Valley City,UT
+Pasadena,Pasadena,CA
+Lewisville,Lewisville,TX
+Kent,Kent,WA
+Sterling Heights,Sterling Heights,MI
+Fargo,Fargo,ND
+Carrollton,Carrollton,TX
+Santa Clara,Santa Clara,CA
+Round Rock,Round Rock,TX
+Norman,Norman,OK
+Columbia,Columbia,MO
+Abilene,Abilene,TX
+Athens,Athens,GA
+Pearland,Pearland,TX
+Clovis,Clovis,CA
+Topeka,Topeka,KS
+College Station,College Station,TX
+Simi Valley,Simi Valley,CA
+Allentown,Allentown,PA
+West Palm Beach,West Palm Beach,FL
+Thousand Oaks,Thousand Oaks,CA
+Vallejo,Vallejo,CA
+Wilmington,Wilmington,NC
+Rochester,Rochester,MN
+Concord,Concord,CA
+Lakeland,Lakeland,FL
+North Charleston,North Charleston,SC
+Lafayette,Lafayette,LA
+Arvada,Arvada,CO
+Independence,Independence,MO
+Billings,Billings,MT
+Fairfield,Fairfield,CA
+Hartford,Hartford,CT
+Ann Arbor,Ann Arbor,MI
+Broken Arrow,Broken Arrow,OK
+Berkeley,Berkeley,CA
+Cambridge,Cambridge,MA
+Richardson,Richardson,TX
+Antioch,Antioch,CA
+High Point,High Point,NC
+Clearwater,Clearwater,FL
+League City,League City,TX
+Odessa,Odessa,TX
+Manchester,Manchester,NH
+Evansville,Evansville,IN
+Waterbury,Waterbury,CT
+West Jordan,West Jordan,UT
+Las Cruces,Las Cruces,NM
+Westminster,Westminster,CO
+Lowell,Lowell,MA
+Nampa,Nampa,ID
+Richmond,Richmond,CA
+Pompano Beach,Pompano Beach,FL
+Carlsbad,Carlsbad,CA
+Menifee,Menifee,CA
+Provo,Provo,UT
+Elgin,Elgin,IL
+Greeley,Greeley,CO
+Springfield,Springfield,IL
+Beaumont,Beaumont,TX
+Lansing,Lansing,MI
+Murrieta,Murrieta,CA
+Goodyear,Goodyear,AZ
+Allen,Allen,TX
+Tuscaloosa,Tuscaloosa,AL
+Everett,Everett,WA
+Pueblo,Pueblo,CO
+New Braunfels,New Braunfels,TX
+South Fulton,South Fulton,GA
+Miami Gardens,Miami Gardens,FL
+Gresham,Gresham,OR
+Temecula,Temecula,CA
+Rio Rancho,Rio Rancho,NM
+Peoria,Peoria,IL
+Tyler,Tyler,TX
+Sparks,Sparks,NV
+Concord,Concord,NC
+Santa Maria,Santa Maria,CA
+Ventura,Ventura,CA
+Buckeye,Buckeye,AZ
+Downey,Downey,CA
+Sugar Land,Sugar Land,TX
+Costa Mesa,Costa Mesa,CA
+Conroe,Conroe,TX
+Spokane Valley,Spokane Valley,WA
+Davie,Davie,FL
+Hillsboro,Hillsboro,OR
+Jurupa Valley,Jurupa Valley,CA
+Centennial,Centennial,CO
+Edison,Edison,NJ
+Boulder,Boulder,CO
+Dearborn,Dearborn,MI
+Edinburg,Edinburg,TX
+Sandy Springs,Sandy Springs,GA
+Green Bay,Green Bay,WI
+West Covina,West Covina,CA
+Brockton,Brockton,MA
+St George,St. George,UT
+Bend,Bend,OR
+Renton,Renton,WA
+Lees Summit,Lee's Summit,MO
+Fishers,Fishers,IN
+El Monte,El Monte,CA
+South Bend,South Bend,IN
+Rialto,Rialto,CA
+Woodbridge,Woodbridge,NJ
+El Cajon,El Cajon,CA
+Inglewood,Inglewood,CA
+Burbank,Burbank,CA
+Wichita Falls,Wichita Falls,TX
+Vacaville,Vacaville,CA
+Carmel,Carmel,IN
+Palm Coast,Palm Coast,FL
+Fayetteville,Fayetteville,AR
+Quincy,Quincy,MA
+San Mateo,San Mateo,CA
+Chico,Chico,CA
+Lynn,Lynn,MA
+Albany,Albany,NY
+Yuma,Yuma,AZ
+New Bedford,New Bedford,MA
+Suffolk,Suffolk,VA
+Hesperia,Hesperia,CA
+Davenport,Davenport,IA
