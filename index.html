@@ -3,16 +3,13 @@
 
 <head>
   <meta name="facebook-domain-verification" content="zg452fxpfsupb96xai6luuk92xcvw7" />
-  <script src="js/detectmobile.js"></script>
   <script>
-    try {
-      // This is the URL where mobile
-      detectmobile.defaultMobileURL = "https://m.droidspeaklabs.com";
-      detectmobile.process();
-    } catch (e) {
-      console.log(e);
+    var touchDevice = (navigator.maxTouchPoints || 'ontouchstart' in document.documentElement);
+
+    if(!touchDevice) {
+        window.location.replace('https://www.droidspeaklabs.com')
     }
-  </script>
+</script>  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
