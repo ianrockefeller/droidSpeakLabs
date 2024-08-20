@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="js/detectmobile.js"></script>
+
     <script>
-        try {
-            // This is the URL where mobile
-            detectmobile.defaultMobileURL = "https://m.droidspeaklabs.com";
-            detectmobile.process();
-        } catch(e) {
+        var touchDevice = (navigator.maxTouchPoints || 'ontouchstart' in document.documentElement);
+
+        if(!touchDevice) {
             window.location.replace('https://www.droidspeaklabs.com')
         }
-
     </script>    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
